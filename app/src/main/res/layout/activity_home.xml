@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E18C1F"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarfrontpage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#E18C1F"
+        app:title="Catholic Registry"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:background="#fff"
+            app:cardCornerRadius="8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/logo"
+                        />
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:id="@+id/ddnews"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_marginRight="15dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/read"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Diocean News"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#3A923C"
+                    android:layout_height="2dp" />
+
+                <LinearLayout
+                    android:id="@+id/ppnews"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_marginRight="15dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/recon"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Parishian News"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#3A923C"
+                    android:layout_height="2dp" />
+
+                <LinearLayout
+                    android:id="@+id/rreg"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_marginRight="15dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/pray"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Registry"
+                        />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#3A923C"
+                    android:layout_height="2dp" />
+
+                <LinearLayout
+                    android:id="@+id/appc"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_marginRight="15dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/local"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Appreciation"
+                        />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#3A923C"
+                    android:layout_height="2dp" />
+
+
+                <LinearLayout
+                    android:id="@+id/ccr"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_marginRight="15dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/rosary"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="14dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:text="Catholic Hymn"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#3A923C"
+                    android:layout_height="2dp" />
+
+
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+
+
+</LinearLayout>

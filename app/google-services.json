@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "173902738001",
+    "firebase_url": "https://catholic-registry.firebaseio.com",
+    "project_id": "catholic-registry",
+    "storage_bucket": "catholic-registry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173902738001:android:f4890125880e2603aa7e70",
+        "android_client_info": {
+          "package_name": "com.sys.cub360.catholic_redgistery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173902738001-9kq0fcnju7ov1ja7bjth6fq885mfeul4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ4nJq6mPTVmpiGy_G8mQHLH8aR7hmKfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173902738001-9kq0fcnju7ov1ja7bjth6fq885mfeul4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173902738001:android:404870670a40f065aa7e70",
+        "android_client_info": {
+          "package_name": "com.sys.cub360.catholicadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173902738001-9kq0fcnju7ov1ja7bjth6fq885mfeul4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ4nJq6mPTVmpiGy_G8mQHLH8aR7hmKfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173902738001-9kq0fcnju7ov1ja7bjth6fq885mfeul4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

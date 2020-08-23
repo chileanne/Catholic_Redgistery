@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="9dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Form">
+
+
+    <TextView
+        android:id="@+id/ol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/color_darkgreen"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="19dp"
+        app:cardBackgroundColor="#854A19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="3dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Spinner
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/choose"></Spinner>
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_marginTop="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#854A19"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day Of Mass :"/>
+
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/chooses"
+            android:layout_marginLeft="19dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2-2-2020"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColorHint="#854A19"
+            android:textColor="#854A19"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No of Men"
+            android:id="@+id/men"/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColorHint="#854A19"
+            android:textColor="#854A19"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No of Women"
+            android:id="@+id/women"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColorHint="#854A19"
+            android:textColor="#854A19"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No of Youth"
+            android:id="@+id/youth"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColorHint="#854A19"
+            android:textColor="#854A19"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No of children"
+            android:id="@+id/children"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColorHint="#854A19"
+            android:textColor="#854A19"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No of Communicants"
+            android:id="@+id/com"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="#E18C1F"
+        android:id="@+id/submit"
+        android:layout_gravity="center"
+        app:cardElevation="5dp"
+        android:layout_marginTop="19dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ddo"/>
+
+            <TextView
+                android:layout_marginLeft="9dp"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="Submit"/>
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/logd"
+        android:layout_gravity="center"
+        app:cardElevation="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/color_darkgreen"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:text="Tap to Log out"/>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

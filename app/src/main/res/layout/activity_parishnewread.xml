@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News.parishnewread">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarparishread"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#212F3D"
+        app:title="Parish news"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:visibility="gone"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/bullreadimage"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="13dp"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="parishname"
+                android:id="@+id/parishnamesx"/>
+
+            <TextView
+
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="3dp"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="parish desc"
+                android:id="@+id/parishdescdx"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="13dp"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Priest info"
+                android:id="@+id/infopriestx"/>
+
+            <TextView
+
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="13dp"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About parish"
+                android:id="@+id/parishaboutx"/>
+
+            <ImageView
+                android:id="@+id/sharedxc"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="3dp"
+                android:padding="2dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/share"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

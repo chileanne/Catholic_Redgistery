@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Read.PickActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+<TextView
+    android:layout_marginTop="10dp"
+    android:textColor="@color/color_darkgreen"
+    android:textStyle="italic"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:text="Click to View Attendance"
+    android:textSize="18sp"/>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/abuja"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+        <TextView
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abuja Province"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/benin"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+        <TextView
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Benin Province"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/calabar"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+        <TextView
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calabar Province"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/ibadan"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+        <TextView
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ibadan Province"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/Jos"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+        <TextView
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jos Province"/>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/kaduna"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+        <TextView
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kaduna Province"/>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/lagos"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+        <TextView
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lagos Province"/>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/onitsha"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+        <TextView
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Onitsha Province"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/owerri"
+        android:layout_marginTop="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+        <TextView
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owerri Province"/>
+
+    </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:id="@+id/logdd"
+                android:layout_gravity="center"
+                app:cardElevation="5dp"
+                android:layout_marginTop="19dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/color_darkgreen"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="19sp"
+                    android:text="Tap to Log out"/>
+
+            </android.support.v7.widget.CardView>
+</LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Send_Account">
+
+    <TextView
+        android:textColor="@color/color_darkgreen"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="19dp"
+        android:layout_marginTop="95dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Fill the box below"/>
+
+
+    <LinearLayout
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColorHint="#854A19"
+            android:textColor="#854A19"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:id="@+id/men"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColorHint="#854A19"
+            android:textColor="#854A19"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone No"
+            android:id="@+id/phoneno"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColorHint="#854A19"
+            android:textColor="#854A19"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:id="@+id/email"/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColorHint="#854A19"
+            android:textColor="#854A19"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Parish"
+            android:id="@+id/parris"/>
+
+    </android.support.v7.widget.CardView>
+
+        <TextView
+            android:textColor="#E18C1F"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="19dp"
+            android:layout_marginTop="11dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Parish Accounts will be created within 24hrs and sent to the email supplied"/>
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/color_darkgreen"
+        android:id="@+id/submit"
+        android:layout_gravity="center"
+        app:cardElevation="5dp"
+        android:layout_marginTop="19dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ddo"/>
+
+            <TextView
+                android:layout_marginLeft="9dp"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="Submit"/>
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/gotologin"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#E18C1F"
+            android:layout_gravity="center"
+            app:cardElevation="5dp"
+            android:layout_marginTop="19dp"
+            android:layout_width="250dp"
+            android:layout_height="35dp">
+
+        <TextView
+
+
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click to Login"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

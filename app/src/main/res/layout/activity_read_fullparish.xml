@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Read.Read_fullparish">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report on"/>
+
+            <TextView
+                android:id="@+id/parishname"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sam Parish"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Province :"/>
+
+            <TextView
+                android:id="@+id/pofsc"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dioces :"/>
+
+            <TextView
+                android:id="@+id/ddiosx"
+                android:layout_marginLeft="19dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Denary :"/>
+
+            <TextView
+                android:id="@+id/ddex"
+                android:layout_marginLeft="19dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date :"/>
+
+            <TextView
+                android:id="@+id/dddax"
+                android:layout_marginLeft="34dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/color_darkgreen"/>
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time of Mass :"/>
+
+            <TextView
+                android:id="@+id/pofsdd"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Men :"/>
+
+            <TextView
+                android:id="@+id/mendx"
+                android:layout_marginLeft="19dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Women :"/>
+
+            <TextView
+                android:id="@+id/womendx"
+                android:layout_marginLeft="19dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Children :"/>
+
+            <TextView
+                android:id="@+id/chidfx"
+                android:layout_marginLeft="34dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Youth :"/>
+
+            <TextView
+                android:id="@+id/youttx"
+                android:layout_marginLeft="34dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/color_darkgreen"/>
+
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="19dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total ="/>
+
+            <TextView
+                android:id="@+id/tfghx"
+                android:layout_marginLeft="34dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/color_darkgreen"/>
+
+
+
+        <LinearLayout
+            android:padding="19dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="19dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Communicants ="/>
+
+            <TextView
+                android:id="@+id/covx"
+                android:layout_marginLeft="34dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="98"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

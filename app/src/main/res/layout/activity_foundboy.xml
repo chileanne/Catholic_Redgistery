@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".foundboy">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="220dp"
+        android:textColor="@color/color_darkgreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Data Verification ,Click SUBMIT Again"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="#E18C1F"
+        android:text="Submit"
+        android:textColor="@color/color_darkgreen"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kjdx"
+        />
+
+</LinearLayout>

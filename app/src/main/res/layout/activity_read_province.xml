@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    app:cardBackgroundColor="#854A19"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    app:cardElevation="5dp"
+    android:id="@+id/beb"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Read.Read_province">
+
+
+    <LinearLayout
+        android:padding="3dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+                <LinearLayout
+                    android:layout_marginBottom="9dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:id="@+id/pname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" "/>
+
+                    <TextView
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Province Report"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="9dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date :"/>
+
+                    <TextView
+                        android:textColor="#000"
+                        android:id="@+id/dddab"
+                        android:layout_marginLeft="34dp"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="9dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Attendance:"/>
+
+                    <TextView
+                        android:textColor="#000"
+                        android:id="@+id/pno"
+                        android:padding="9dp"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:padding="9dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Communicants :"/>
+
+                    <TextView
+                        android:textColor="#000"
+                        android:id="@+id/pnoc"
+                        android:padding="9dp"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:padding="9dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:textColor="@color/color_darkgreen"
+                        android:layout_gravity="right"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Click to View Dioces by Dioces Report...."/>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

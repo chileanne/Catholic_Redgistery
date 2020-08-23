@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sys.cub360.catholic_redgistery">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login_Screen" />
+        <activity android:name=".Read.Calendar" />
+        <activity android:name=".Read.PickActivity" />
+        <activity android:name=".Read.Read_denary" />
+        <activity android:name=".Read.Read_dioces" />
+        <activity android:name=".Read.Read_fullparish" />
+        <activity android:name=".Read.Read_parish" />
+        <activity android:name=".Read.Read_province" />
+        <activity android:name=".Send_Account" />
+        <activity android:name=".User_Form" />
+        <activity android:name=".ContinueActivity" />
+        <activity android:name=".foundboy" />
+        <activity android:name=".foundyes" />
+        <activity android:name=".foundno" />
+        <activity android:name=".News.Diocesnews" />
+        <activity android:name=".News.Parishnews" />
+        <activity android:name=".News.Bulletinread" />
+        <activity android:name=".News.Appreciation" />
+        <activity android:name=".News.parishnewread"></activity>
+    </application>
+
+</manifest>

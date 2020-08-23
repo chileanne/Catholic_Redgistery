@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    app:cardBackgroundColor="#854A19"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    app:cardElevation="5dp"
+    android:id="@+id/cdc"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:padding="3dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/color_darkgreen"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report on"/>
+
+            <TextView
+                android:textColor="@color/color_darkgreen"
+                android:id="@+id/denaryname"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/color_darkgreen"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Province :"/>
+
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/pof"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/color_darkgreen"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dioces :"/>
+
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/ddio"
+                android:layout_marginLeft="19dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/color_darkgreen"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date :"/>
+
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/ddda"
+                android:layout_marginLeft="34dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluku Denary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/color_darkgreen"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Communicants :"/>
+
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/comdd"
+                android:layout_marginLeft="14dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/color_darkgreen"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total No of Attendes acrooss all parish"/>
+
+            <TextView
+                android:textColor="@color/color_darkgreen"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Men,Women,Youth,Children)"/>
+
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/kod"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="= 0"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_marginTop="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:textColor="#E18C1F"
+                android:layout_gravity="right"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click to View Parish by Parish Report...."/>
+
+
+
+        </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
